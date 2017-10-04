@@ -42,15 +42,13 @@ nav a {
 	background-color: rgba(0,0,0,.8);
   text-decoration: none;
   color: white;
-  width: 12%;
   height: 50px;
-  margin:0 10px;
+  padding: 0 30px;
 }
 
 nav ul {
 	display: flex;
 	flex-direction: row;
-  width: 90%;
   margin-top:30px;
 }
 
@@ -59,6 +57,8 @@ nav li {
   flex-direction: row;
   list-style:none;
   justify-content: center;
+  width: 200px;
+  margin-right:10px;
 }
 
 #daveCartoon {
@@ -93,4 +93,15 @@ nav li {
 
 .displayYes {
   display:display;
+}
+
+
+/******************************************
+Portfolio Page*****************************
+******************************************/
+
+#portfolio {
+  margin-top: -20px;
+	background: rgba(0,0,0,.05);
+	width:100%;
 }
