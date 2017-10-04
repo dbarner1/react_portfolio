@@ -50,7 +50,7 @@ nav a {
 nav ul {
 	display: flex;
 	flex-direction: row;
-  width: 70%;
+  width: 90%;
   margin-top:30px;
 }
 
@@ -85,4 +85,12 @@ nav li {
 
 #CtaTextTop {
   padding-top:100px;
+}
+
+.displayNo {
+  display: none;
+}
+
+.displayYes {
+  display:display;
 }

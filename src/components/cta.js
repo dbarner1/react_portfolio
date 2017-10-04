@@ -4,7 +4,7 @@ import '../index.css';
 class Cta extends React.Component {
   render() {
     return (
-      <div id="CtaWelcome">
+      <div className={ this.props.display } id="CtaWelcome">
         <div id="CtaText">
           <h1 id="CtaTextTop">Front End Development</h1>
   			  <h1><p>with backend experience.</p></h1>
