@@ -11,20 +11,20 @@ body {
 Header*************************************
 ******************************************/
 
-header {
-  border-bottom: 1px solid grey;
-  position:fixed;
-  z-index: 5;
-  width: 100vw;
-  height: 100px;
+#root {
   margin-top: -20px;
-  align-items: flex-end;
-  background-color: rgba(255,255,255,.8);
 }
 
-header h1 {
-	margin-top:0px;
+header {
+  border-bottom: 1px solid grey;
+  z-index: 5;
+  width: 100vw;
+  position: fixed;
+  align-items: flex-end;
+  background-color: rgba(255,255,255,.8);
+  height: 100px;
 }
+
 
 nav a:hover {
   background-color: rgba(0,0,0,.5);
@@ -37,19 +37,19 @@ nav {
   align-content: space-around;
 }
 
-
 nav a {
 	background-color: rgba(0,0,0,.8);
+  font-size:20px;
   text-decoration: none;
   color: white;
   height: 50px;
-  padding: 0 30px;
+  padding: 30px 40px 0px 40px;
 }
 
 nav ul {
 	display: flex;
 	flex-direction: row;
-  margin-top:30px;
+
 }
 
 nav li {
@@ -63,7 +63,6 @@ nav li {
 
 #daveCartoon {
   width:30px;
-  margin-top: -10px;
 }
 
 
@@ -72,7 +71,6 @@ nav li {
   background-position:center;
   background-size:cover;
   margin:0 auto;
-  margin-top: -20px;
   width: 100%;
   height: 100vh;
   text-align: left;
@@ -80,11 +78,24 @@ nav li {
 
 #CtaText {
   padding-left:15vw;
-  width:40vw;
+  width: 50%;
 }
 
 #CtaTextTop {
-  padding-top:100px;
+  padding-top:200px;
+}
+
+#CtasubText {
+  font-style:italic;
+}
+
+#CtasubText p {
+  margin: 0;
+  padding: 0;
+}
+
+#CtaTextTop h1 {
+  margin: 0;
 }
 
 .displayNo {
