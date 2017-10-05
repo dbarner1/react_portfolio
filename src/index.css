@@ -11,18 +11,10 @@ body {
 Header*************************************
 ******************************************/
 
-#root {
-  margin-top: -20px;
-}
-
 header {
-  border-bottom: 1px solid grey;
   z-index: 5;
   width: 100vw;
   position: fixed;
-  align-items: flex-end;
-  background-color: rgba(255,255,255,.8);
-  height: 100px;
 }
 
 
@@ -33,23 +25,26 @@ nav a:hover {
 
 nav {
   display:flex;
+  background-color: rgba(0,0,0,.2);
   flex-direction: row;
-  align-content: space-around;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+
 }
 
 nav a {
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(255,255,255,.7);
   font-size:20px;
   text-decoration: none;
-  color: white;
-  height: 50px;
-  padding: 30px 40px 0px 40px;
+  color: black;
+  height: 30px;
+  padding: 15px 30px 5px 30px;
 }
 
 nav ul {
 	display: flex;
 	flex-direction: row;
-
 }
 
 nav li {
@@ -57,8 +52,8 @@ nav li {
   flex-direction: row;
   list-style:none;
   justify-content: center;
-  width: 200px;
-  margin-right:10px;
+  width: 125px;
+  margin-right:5px;
 }
 
 #daveCartoon {
@@ -67,31 +62,44 @@ nav li {
 
 
 #CtaWelcome {
-  background-image:url('images/cuttingboard.jpg');
-  background-position:center;
+  display: flex;
+  flex-direction: column;
+  background-image:url('images/graph.jpeg');
   background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
   margin:0 auto;
   width: 100%;
   height: 100vh;
-  text-align: left;
+}
+
+#CtaCallToAction {
+
 }
 
 #CtaText {
-  padding-left:15vw;
-  width: 50%;
+  width: 100%;
+  color: rgba(255,255,255,.9);
+  font-size: 2.5vw;
+  text-align: center;
+  padding-left: 20px;
 }
 
 #CtaTextTop {
-  padding-top:200px;
+  padding-top:100px;
 }
 
 #CtasubText {
   font-style:italic;
+  text-align: center;
 }
 
 #CtasubText p {
   margin: 0;
-  padding: 0;
+}
+
+#CtasubText h3 {
+  font-style:italic;
 }
 
 #CtaTextTop h1 {
@@ -104,6 +112,13 @@ nav li {
 
 .displayYes {
   display:display;
+}
+
+.TemplateButton {
+  background-color:blue;
+  width:20vw;
+  padding: 30px;
+  color: white;
 }
 
 
