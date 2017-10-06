@@ -8,7 +8,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-p, h1, h2, h3, h4, h5 {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -31,7 +31,7 @@ header {
   background-position: center;
   background-repeat:no-repeat;
   margin:0 auto;
-    padding-bottom: 0vh;
+  padding-bottom: 0vh;
   width: 100vw;
   height: 100vh;
 }
@@ -144,7 +144,7 @@ Portfolio Page*****************************
   background-repeat:no-repeat;
   margin:0 auto;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -154,8 +154,49 @@ Portfolio Page*****************************
   width: 100%;
 }
 
+#portfolio button {
+  background-color: orange;
+  border: 0;
+  width:100%;
+  height: 5vh;
+  margin-top: 1vh;
+}
+
+.portfolio-title {
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+}
+
 .portfolio-pieces {
   width: 80%;
   margin: 0 auto;
-  margin-top: 3vh;
+}
+
+.portfolio-description {
+  margin: 0;
+}
+
+.heartImage {
+  width:8vw;
+}
+
+/******************************************
+Contact Page*******************************
+******************************************/
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  background-image:url('images/blurry_night.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.wrapper {
+  margin-top:30vh;
 }
