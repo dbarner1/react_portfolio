@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../stylesheets/index.css';
 
 class Portfolio extends React.Component {
   constructor() {
@@ -10,10 +10,11 @@ class Portfolio extends React.Component {
   }
 
   render() {
-    const heartImage = require('../images/heart.svg')
+    const heartImage = require('../images/heart.svg');
+
     return (
       <div className={ this.props.display } id="portfolio" class="portfolio">
-         <h3 className="section-title">I <img className="heartImage" src={ heartImage } /> to create.  Here are some samples.</h3>
+         <h3 className="section-title">I <img alt="love" className="heartImage" src={ heartImage } /> to create.  Here are some samples.</h3>
       	   <div className="portfolio-pieces">
       	 		<div className="portfolio-piece bslc">
       	 			<div className="portfolio-title">
@@ -35,7 +36,7 @@ class Portfolio extends React.Component {
       	 			</div>
       	 			<div className="portfolio-description">
       	 				<h6>An interactive video prototype built leveraging the YouTube API.  Built entirely from scratch, with one bit of code from Youtube to call the player.</h6>
-      	 				<a target="_blank" href="https:github.com/dbarner1/YouTube-API-Interactive-Video"><button class="active">View Github</button></a>
+      	 				<a target="_blank" rel="noopener noreferrer" href="https:github.com/dbarner1/YouTube-API-Interactive-Video"><button class="active">View Github</button></a>
       	 			</div>
       	 		</div>
       	 		<div className="portfolio-piece stripe">
@@ -46,7 +47,7 @@ class Portfolio extends React.Component {
       	 			</div>
       	 			<div className="portfolio-description">
       	 				<h6>Stripe is one of the best ways to receive a payment from a consumer.  This example shows how to hook up Stripe with a few lines of code.</h6>
-      	 				<a target="_blank" href="https:github.com/dbarner1/Stripe-API-Prototype"><button class="active">View Github</button></a>
+      	 				<a target="_blank" rel="noopener noreferrer" href="https:github.com/dbarner1/Stripe-API-Prototype"><button class="active">View Github</button></a>
       	 			</div>
       	 		</div>
       	 		<div className="portfolio-piece blackjack">

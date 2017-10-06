@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import '../stylesheets/index.css';
 import Button from './Button.js';
 
 class Cta extends React.Component {
