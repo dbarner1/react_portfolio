@@ -11,9 +11,10 @@ const Header = () => (
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/portfolio'>Portfolio</Link></li>
         <li><Link to='/contact'>Connect</Link></li>
+        <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
       </ul>
     </nav>
-    <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
+
   </header>
 )
 
