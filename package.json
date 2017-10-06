@@ -1,5 +1,5 @@
 {
-  "name": "makerspace",
+  "name": "barner_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }
