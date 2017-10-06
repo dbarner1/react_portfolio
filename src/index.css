@@ -4,18 +4,60 @@ Resets*************************************
 
 body {
   margin: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+}
 
 /******************************************
 Header*************************************
 ******************************************/
 
 header {
-  z-index: 5;
   width: 100vw;
   position: fixed;
+  height: 10vh;
 }
+
+#CtaWelcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image:url('images/blurry_night.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+#CtaText {
+  width: 100%;
+  font-size: 8vw;
+  height: 10vh;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+#CtaCallToAction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 60vh;
+
+}
+
+.TemplateButton {
+  background-color: rgba(250,109,54,1);
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
 
 
 nav a:hover {
@@ -25,21 +67,20 @@ nav a:hover {
 
 nav {
   display:flex;
-  background-color: rgba(0,0,0,.2);
   flex-direction: row;
-  justify-content: left;
+  font-size: 2vw;
+  background-color: rgba(0,0,0,.2);
+  justify-content: center;
   align-items: center;
-  margin-top: 10px;
 
 }
 
 nav a {
-	background-color: rgba(255,255,255,.7);
-  font-size:20px;
+  font-size:18px;
   text-decoration: none;
-  color: black;
+  color: white;
   height: 30px;
-  padding: 15px 30px 5px 30px;
+  padding: 5px;
 }
 
 nav ul {
@@ -52,58 +93,32 @@ nav li {
   flex-direction: row;
   list-style:none;
   justify-content: center;
-  width: 125px;
-  margin-right:5px;
+  width: 30%;
+  margin:0 10px;
 }
-
-#daveCartoon {
-  width:30px;
-}
-
 
 #CtaWelcome {
-  display: flex;
-  flex-direction: column;
-  background-image:url('images/graph.jpeg');
-  background-size:cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  margin:0 auto;
-  width: 100%;
-  height: 100vh;
-}
-
-#CtaCallToAction {
 
 }
 
-#CtaText {
-  width: 100%;
-  color: rgba(255,255,255,.9);
-  font-size: 2.5vw;
+
+
+#CtaCallToAction h2 {
+  font-size: 5vw;
   text-align: center;
-  padding-left: 20px;
+  margin-top: 30px;
 }
 
-#CtaTextTop {
-  padding-top:100px;
-}
 
 #CtasubText {
-  font-style:italic;
   text-align: center;
+  margin-top:9%;
+  font-size:6vw;
+  width: 100%;
 }
 
-#CtasubText p {
-  margin: 0;
-}
-
-#CtasubText h3 {
-  font-style:italic;
-}
-
-#CtaTextTop h1 {
-  margin: 0;
+#CtaCallToAction h2 {
+  margin-bottom:10%;
 }
 
 .displayNo {
@@ -111,23 +126,35 @@ nav li {
 }
 
 .displayYes {
-  display:display;
+  display: display;
 }
-
-.TemplateButton {
-  background-color:blue;
-  width:20vw;
-  padding: 30px;
-  color: white;
-}
-
 
 /******************************************
 Portfolio Page*****************************
 ******************************************/
 
+
 #portfolio {
-  margin-top: -20px;
-	background: rgba(0,0,0,.05);
-	width:100%;
+  display: flex;
+  flex-direction: column;
+  background-image:url('images/blurry_night.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#portfolio h3 {
+  margin-top:12vh;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio-pieces {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3vh;
 }
