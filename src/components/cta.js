@@ -10,7 +10,7 @@ class Cta extends React.Component {
           <h1 id="CtaTextTop">Dave Barner</h1>
   			</div>
         <div id="CtaCallToAction">
-          <div id="CtasubText"><p>React developer <br/> with professional Rails experience</p>
+          <div id="CtasubText"><p>React developer <br/>Rails professional experience</p>
           </div>
           <h2>React<br/> Javascript<br/> CSS/SASS/Bootstrap<br/>Ruby/Rails<br/>Python (coming soon)</h2>
         </div>
