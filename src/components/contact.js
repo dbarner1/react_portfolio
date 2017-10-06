@@ -1,5 +1,8 @@
 import React from 'react';
 import '../stylesheets/index.css';
+const phoneImage = require('../images/phone.png');
+const mailImage = require('../images/mail.png');
+const linkedinImage = require('../images/linkedin.png');
 
 class Contact extends React.Component {
   constructor() {
@@ -11,15 +14,16 @@ class Contact extends React.Component {
   render() {
 
     return (
-      <div className={ this.props.display } id="contact" class="contact">
-        <div class='wrapper'>
-          <div>Call
-          </div>
-          <div>Email
-          </div>
-          <div>LinkedIn
+      <div className={ this.props.display } id="contact" className="contact">
+        <div className='contactWrapper'>
+          <div>
+            <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
           </div>
           <div>
+            <a href='email:dbarner@gmail.com'><img className='mailImage' src={ mailImage } /></a>
+          </div>
+          <div>
+            <a href='https://www.linkedin.com/in/dbarner/'><img className='linkedinImage' src={ linkedinImage } /></a>
           </div>
         </div>
       </div>

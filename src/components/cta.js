@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/index.css';
 import Button from './Button.js';
+import { Link } from 'react-router-dom';
 
 class Cta extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class Cta extends React.Component {
           </div>
           <h2>React<br/> Javascript<br/> CSS/SASS/Bootstrap<br/>Ruby/Rails<br/>Python (coming soon)</h2>
         </div>
-        <Button text="Explore Portfolio" />
+        <Link className='MainCtaButton' to='/portfolio'><Button text="Explore Portfolio" /></Link>
       </div>
     )
   }
