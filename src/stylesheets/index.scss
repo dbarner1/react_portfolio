@@ -271,6 +271,24 @@ Media Queries******************************
 
 @media only screen and (min-width: 760px) {
   #CtaWelcome {
-    display: none;
+    #CtaText {
+      margin-top: 120px;
+    }
+  }
+
+  #portfolio {
+    padding-top: 20px;
+
+    .portfolio-pieces {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portfolio-piece {
+      width: 500px;
+    }
+
   }
 }
