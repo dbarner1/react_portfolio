@@ -196,4 +196,11 @@ footer {
   justify-content: center;
   text-align: center; }
 
+/******************************************
+Media Queries******************************
+******************************************/
+@media only screen and (min-width: 760px) {
+  #CtaWelcome {
+    display: none; } }
+
 /*# sourceMappingURL=index.css.map */
