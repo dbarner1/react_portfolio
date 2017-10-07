@@ -23,11 +23,11 @@ class Portfolio extends React.Component {
       	 			<div className="portfolio-middle">
       	 			</div>
       	 			<div className="portfolio-description">
-      	 				<h4>
-                  React/Rails: A Beautiful Combo
+      	 				<p>
+                  React/Rails: A Beautiful Combo.
         	 				<br/>Front End: React.
-                  <br/>Backend admin panel in Rails.
-                </h4>
+                  <br/>Backend: Admin interface to access data in Rails.
+                </p>
       	 				<a target="_blank" href="products/bslc/index.html"><button>Visit Site</button></a>
       	 			</div>
       	 		</div>
@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
       	 			<div className="portfolio-middle">
       	 			</div>
       	 			<div className="portfolio-description">
-      	 				<h4>Stripe is one of the best ways to receive a payment from a consumer.  This example shows how to hook up Stripe with a few lines of code.</h4>
+      	 				<p>Stripe is one of the best ways to receive a payment from a consumer.  This example shows how to hook up Stripe with a few lines of code.</p>
       	 				<a target="_blank" rel="noopener noreferrer" href="https:github.com/dbarner1/Stripe-API-Prototype"><button className="active">View Github</button></a>
       	 			</div>
       	 		</div>
@@ -60,7 +60,7 @@ class Portfolio extends React.Component {
       	 			<div className="portfolio-middle">
       	 			</div>
       	 			<div className="portfolio-description">
-      	 				<h4>I built this game in vanilla JS to teach the basics of Javascript for the students at Bay State Learning Center.  While you may lose, there are never losers.  May the odds be ever in your favor.</h4>
+      	 				<p>I built this game in vanilla JS to teach the basics of Javascript for the students at Bay State Learning Center.  While you may lose, there are never losers.  May the odds be ever in your favor.</p>
       	 				<a target="_blank" href="products/blackjack/blackjack.html"><button className="active">Play</button></a>
       	 			</div>
       	 		</div>

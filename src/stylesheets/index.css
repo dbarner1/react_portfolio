@@ -62,7 +62,7 @@ CTA****************************************
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 100vw;
-  height: 88vh; }
+  height: 89vh; }
   #CtaWelcome #CtaText {
     width: 100%;
     font-size: 7vw;
@@ -116,7 +116,7 @@ PORTFOLIO**********************************
   min-height: 80vh;
   text-align: center; }
   #portfolio h3 {
-    margin-top: 12vh;
+    margin-top: 13vh;
     text-align: center;
     width: 100%; }
   #portfolio p {
@@ -133,8 +133,7 @@ PORTFOLIO**********************************
     height: 7vh;
     margin-top: 1vh; }
   #portfolio .portfolio-title {
-    margin-top: 4.5vh;
-    margin-bottom: 1vh; }
+    margin-top: 4vh; }
   #portfolio .portfolio-pieces {
     width: 80%;
     margin: 0 auto; }
