@@ -20,7 +20,7 @@ class Contact extends React.Component {
             <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
           </div>
           <div>
-            <a href='email:dbarner@gmail.com'><img className='mailImage' src={ mailImage } /></a>
+            <a href='mailto:dbarner@gmail.com'><img className='mailImage' src={ mailImage } /></a>
           </div>
           <div>
             <a href='https://www.linkedin.com/in/dbarner/'><img className='linkedinImage' src={ linkedinImage } /></a>

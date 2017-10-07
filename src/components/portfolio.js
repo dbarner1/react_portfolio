@@ -38,7 +38,7 @@ class Portfolio extends React.Component {
       	 			<div className="portfolio-middle">
       	 			</div>
       	 			<div className="portfolio-description">
-      	 				<h4>An interactive video prototype built leveraging the YouTube API.  Built entirely from scratch, with one bit of code from Youtube to call the player.</h4>
+      	 				<p>An interactive video prototype built leveraging the YouTube API.  Built entirely from scratch, with one bit of code from Youtube to call the player.</p>
       	 				<a target="_blank" rel="noopener noreferrer" href="https:github.com/dbarner1/YouTube-API-Interactive-Video"><button className="active">View Github</button></a>
       	 			</div>
       	 		</div>

@@ -23,15 +23,6 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center; }
-    header nav a {
-      font-size: 18px;
-      text-decoration: none;
-      color: white;
-      height: 30px;
-      padding: 5px; }
-      header nav a:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        transition: .1s, ease-in; }
     header nav ul {
       display: flex;
       flex-direction: row; }
@@ -39,9 +30,20 @@ header {
         display: flex;
         flex-direction: row;
         list-style: none;
-        justify-content: center;
         width: 30%;
         margin: 0 10px; }
+        header nav ul li a {
+          display: flex;
+          flex-direction: column;
+          font-size: 18px;
+          justify-content: center;
+          text-decoration: none;
+          color: white;
+          height: 30px;
+          padding: 5px; }
+          header nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+            transition: .1s, ease-in; }
 
 .phoneImage {
   width: 40px;
@@ -59,14 +61,13 @@ CTA****************************************
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-bottom: 0vh;
   width: 100vw;
-  height: 100vh; }
+  height: 88vh; }
   #CtaWelcome #CtaText {
     width: 100%;
-    font-size: 8vw;
+    font-size: 7vw;
     height: 10vh;
-    margin-top: 10vh;
+    margin-top: 12vh;
     text-align: center; }
   #CtaWelcome #CtaCallToAction {
     display: flex;
@@ -76,23 +77,22 @@ CTA****************************************
     #CtaWelcome #CtaCallToAction h2 {
       font-size: 5vw;
       text-align: center;
-      margin-top: 30px;
+      margin-top: 40px;
       margin-bottom: 10%; }
     #CtaWelcome #CtaCallToAction #CtasubText {
       text-align: center;
-      margin-top: 9%;
       font-size: 6vw;
       width: 100%; }
 
 .MainCtaButton {
+  display: block;
   text-decoration: none; }
 
 .TemplateButton {
   background-color: #fa6d36;
   padding: 30px;
   color: white;
-  text-align: center;
-  margin-bottom: 9vh; }
+  text-align: center; }
 
 .displayNo {
   display: none; }
@@ -113,12 +113,19 @@ PORTFOLIO**********************************
   margin: 0 auto;
   padding-bottom: 8vh;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 80vh;
   text-align: center; }
   #portfolio h3 {
     margin-top: 12vh;
     text-align: center;
     width: 100%; }
+  #portfolio p {
+    font-size: 13px; }
+  #portfolio .section-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
   #portfolio button {
     background-color: orange;
     border: 0;
@@ -126,15 +133,15 @@ PORTFOLIO**********************************
     height: 7vh;
     margin-top: 1vh; }
   #portfolio .portfolio-title {
-    margin-top: 3vh;
+    margin-top: 4.5vh;
     margin-bottom: 1vh; }
   #portfolio .portfolio-pieces {
     width: 80%;
     margin: 0 auto; }
-  #portfolio .portfolio-description {
-    margin: 0; }
   #portfolio .heartImage {
-    width: 8vw; }
+    width: 6vw;
+    height: 6vw;
+    margin: 0 5px; }
 
 /******************************************
 Contact Page*******************************
@@ -164,5 +171,17 @@ Contact Page*******************************
 
 .wrapper {
   margin-top: 30vh; }
+
+/******************************************
+Footer*******************************
+******************************************/
+footer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  height: 12vh;
+  justify-content: center;
+  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */
