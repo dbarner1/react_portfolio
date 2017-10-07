@@ -17,7 +17,7 @@ class Contact extends React.Component {
       <div className={ this.props.display } id="contact" className="contact">
         <div className='contactWrapper'>
           <div className='image'>
-            <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
+            <a href='tel:+17814679961'><img className='phoneImage' src={ phoneImage } /></a>
           </div>
           <div className='image'>
             <a href='mailto:dbarner@gmail.com'><img className='mailImage' src={ mailImage } /></a>
