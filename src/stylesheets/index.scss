@@ -292,3 +292,54 @@ Media Queries******************************
 
   }
 }
+
+
+@media only screen and (min-width: 1400px) {
+  #CtaWelcome {
+    #CtaText {
+      margin-top: 150px;
+    }
+  }
+
+  .TemplateButton {
+    background-color: rgba(250,109,54,1);
+    padding: 60px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #portfolio {
+    padding-top: 50px;
+
+    .portfolio-pieces {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .portfolio-piece {
+      width: 1000px;
+
+      h2 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      button {
+        background-color: orange;
+        border: 0;
+        min-width:80%;
+        max-width:100%;
+        height: 100px;
+        margin-top: 1vh;
+        font-size: 30px;
+      }
+    }
+
+  }
+}
