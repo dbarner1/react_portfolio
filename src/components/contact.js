@@ -16,13 +16,13 @@ class Contact extends React.Component {
     return (
       <div className={ this.props.display } id="contact" className="contact">
         <div className='contactWrapper'>
-          <div>
+          <div className='image'>
             <a href='tel:+7814679961'><img className='phoneImage' src={ phoneImage } /></a>
           </div>
-          <div>
+          <div className='image'>
             <a href='mailto:dbarner@gmail.com'><img className='mailImage' src={ mailImage } /></a>
           </div>
-          <div>
+          <div className='image'>
             <a href='https://www.linkedin.com/in/dbarner/'><img className='linkedinImage' src={ linkedinImage } /></a>
           </div>
         </div>

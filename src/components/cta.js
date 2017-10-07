@@ -8,7 +8,7 @@ class Cta extends React.Component {
     return (
       <div className={ this.props.display } id="CtaWelcome">
         <div id="CtaText">
-          <h1 id="CtaTextTop">Dave Barner</h1>
+          <h1>Dave Barner</h1>
   			</div>
         <div id="CtaCallToAction">
           <div id="CtasubText"><p>React developer <br/>Rails professional experience</p>
