@@ -18,14 +18,14 @@ class Portfolio extends React.Component {
       	   <div className="portfolio-pieces">
       	 		<div className="portfolio-piece bslc">
       	 			<div className="portfolio-title">
-      	 				<h4>Bay State Learning Center</h4>
+      	 				<h4>MarketPlace</h4>
       	 			</div>
       	 			<div className="portfolio-middle">
       	 			</div>
       	 			<div className="portfolio-description">
       	 				<h6>React/Rails: A Beautiful Combo
-      	 				<br/>Front End: React.  <br/>Backend admin panel in Rails.</h6>
-      	 				<a target="_blank" href="products/bslc/index.html"><button>Visit Site</button></a>
+      	 				<br/>Front End: React.  <br/>Backend admin panel and microservices in Rails.</h6>
+      	 				<a target="_blank" href="http://barner-marketplace.herokuapp.com"><button>Visit Site</button></a>
       	 			</div>
       	 		</div>
       	 		<div className="portfolio-piece youtube">
